@@ -55,7 +55,7 @@ El siguiente proyecto consiste en segmentar, contar y calcular las probabilidade
 
 > Estructuración de Datos
 
-1. Ahora segmenta los datos por rangos de edades: `R1: De 0 a 12 años`, `R2: De 13 a 18 años`, `R3: de 19 a 25 años`, `R4: de 26 a 35`, `R5: de 35 a 50 años`, `R6: de 51 años en adelante`.
+1. Ahora segmenta los datos por rangos de edades: `R1: De 0 a 12 años`, `R2: De 13 a 18 años`, `R3: de 19 a 25 años`, `R4: de 26 a 35`, `R5: de 36 a 50 años`, `R6: de 51 años en adelante`.
 2. Repite el estudio por rangos de edades y anota las probabilidades de que les guste el fútbol por cada género, ejemplo: `R1: P(F/H) P(F/M) ...`, `R2: P(F/H) P(F/M) ...`.
 3. Arma una tabla con las siguientes columnas: `Rango de Edad`, `Proba. Gusta Fútbol - Hombre`, `Proba. Gusta Fútbol - Mujer`, `...`
 4. Incluye el rango de edad `Todos` en la tabla.
