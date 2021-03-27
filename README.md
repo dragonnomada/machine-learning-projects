@@ -50,7 +50,7 @@ El siguiente proyecto consiste en segmentar, contar y calcular las probabilidade
 2. Cuenta cuántas personas son de cada género y calcula su probabilidad, por ejemplo, `H` - Es hombre, `P(H)` - Probabilidad de ser hombre, `M` - Es Mujer, `P(M)` - Probabilidad de ser mujer, etc. Pista. Segmenta los datos y filtra todos los del género, luego cuéntalos.
 3. Cuenta a cuántos hombres les gusta el fútbol, a cuántas mujeres les gusta el fútbol y así para cada género.
 4. Calcula la probabilidad por cada género de que le guste el fútbol, por ejemplo, `P(F/H)` - Probabilidad de que le gusta el futbol dado que es hombre (divide el total de hombres que les gusta el futbol entre el número de hombres), así para cada género.
-5. Calcula la probabilidad de que a una persona le guste el fútbol como `P(F) = P(H) * P(F/H) + P(M) * P(F/M) + ...`. Nota: Pueden hacer el conteo de a cuántas personas les gusta el fútbol respecto al total.
+5. Calcula la probabilidad de que a una persona le guste el fútbol como `P(F) = P(H) * P(F/H) + P(M) * P(F/M) + ...`. **Nota**: Pueden hacer el conteo de a cuántas personas les gusta el fútbol respecto al total.
 6. Calcula por cada género la probabilidad de que la persona sea del género, dado que le gusta el fútbol, ejemplo, `P(H/F) = P(F/H) * P(H) / P(F)`.
 
 > Estructuración de Datos
