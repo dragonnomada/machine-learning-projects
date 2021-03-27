@@ -75,7 +75,7 @@ En el ajedrez, la pieza del caballo se puede mover en L desde su posición, por 
 
 Podemos decir que la percepción del caballo consta de 8 posiciones (las casillas a las que se pretende mover), estas casillas pueden contener `x` que significa que la casilla no existe en el tablero, `-` que la casilla está libre, `p+` un peón color opuesto, `p*` un peón del mismo color, `c+` y `c*` caballos de diferente y mismo color, `a+` y `a*` alfiles, `t+` y `t*` torres, `d+` y `d*` damas y finalmente `r+` y `r*` reyes. Entonces, si escribimos 8 símbolos dispuestos, significaría la percepción del caballo en cada posible movimiento. Podemos además etiquetar la mejor jugada que debería tomar el caballo, por ejemplo, la etiqueta LLU le diría que esa es la mejor casilla a jugar.
 
-Hemos generado un archivo de texto que contiene 2 mil percepciones del caballo y su mejor jugada etiquetada, el archivo contiene en cada linea un significado para cada casilla a la que puede jugar, ordenadas bajo `LUU`, `LLU`, `LLD`, `LDD`, `RDD`, `RRD`, `RRU` y `RUU`. Es decir, los primeros 8 símbolos separados por coma son los valores de las casillas respectivas. El noveno símbolo es la etiqueta de la mejor casilla que debería jugar el caballo.
+Hemos generado un archivo de texto que contiene 10 mil percepciones del caballo y su mejor jugada etiquetada, el archivo contiene en cada linea un significado para cada casilla a la que puede jugar, ordenadas bajo `LUU`, `LLU`, `LLD`, `LDD`, `RDD`, `RRD`, `RRU` y `RUU`. Es decir, los primeros 8 símbolos separados por coma son los valores de las casillas respectivas. El noveno símbolo es la etiqueta de la mejor casilla que debería jugar el caballo.
 
 > Percepción del caballo y mejor casilla codificadas
 
