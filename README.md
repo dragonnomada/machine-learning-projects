@@ -109,17 +109,17 @@ En el ejemplo de arriba podemos ver que la casilla `LUU` no está en el tablero,
 
 > Validación
 
-5. Recorre cada muestra `X_test`, `Y_test`.
-6. Para cada muestra `x`, `y` predice la etiqueta `yp` según el clasificador.
-7. Codifica el vector `x` de forma inversa. `-1: *`, `0: -`, `1: p+`, `2: c+`, `3: a+`, `4: t+`, `5: d+`, `6: r+`.
-8. Codifica la etiqueta `y` y `yp` de forma inversa: `[1, 0, 0, 0, 0, 0, 0, 0]: LUU`, `...`
-9. Imprime una línea con la codificación de `x`, `y` y `yp` separados por un espacio.
-10. Escribe un archivo llamado `knight-moves-predict.txt` con cada línea.
-11. Escribe al final de la línea: `Score: {score}`.
-12. Cuenta los `corrects` y los `fails`.
-13. Escribe después del `score` una línea con `Corrects: {corrects}, Fails: {fails}, Total: {total}`.
-14. Calcula el porcentaje de `corrects` y el porcentaje de `fails`.
-15. Escribe en una línea al final `{pct_corrects} / {pct_fails}`
+1. Recorre cada muestra `X_test`, `Y_test`.
+2. Para cada muestra `x`, `y` predice la etiqueta `yp` según el clasificador.
+3. Codifica el vector `x` de forma inversa. `-1: *`, `0: -`, `1: p+`, `2: c+`, `3: a+`, `4: t+`, `5: d+`, `6: r+`.
+4. Codifica la etiqueta `y` y `yp` de forma inversa: `[1, 0, 0, 0, 0, 0, 0, 0]: LUU`, `...`
+5. Imprime una línea con la codificación de `x`, `y` y `yp` separados por un espacio.
+6. Escribe un archivo llamado `knight-moves-predict.txt` con cada línea.
+7. Escribe al final de la línea: `Score: {score}`.
+8. Cuenta los `corrects` y los `fails`.
+9. Escribe después del `score` una línea con `Corrects: {corrects}, Fails: {fails}, Total: {total}`.
+10. Calcula el porcentaje de `corrects` y el porcentaje de `fails`.
+11. Escribe en una línea al final `{pct_corrects} / {pct_fails}`
 
 Opcional: Repite el mismo estudio usando un clasificador por red neuronal de perceptrón multicapa y/o un clasificador por soporte vectorial.
 
