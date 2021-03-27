@@ -124,4 +124,5 @@ En el ejemplo de arriba podemos ver que la casilla `LUU` no está en el tablero,
 Opcional: Repite el mismo estudio usando un clasificador por red neuronal de perceptrón multicapa y/o un clasificador por soporte vectorial.
 
 MLPClassifier - https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html?highlight=mlp#sklearn.neural_network.MLPClassifier
+
 SVC - https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html?highlight=svc#sklearn.svm.SVC
